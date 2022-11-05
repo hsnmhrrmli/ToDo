@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@media (min-width: 860px) {
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+    .addbutton:hover{
+        opacity:0.9 ;
+    }
+    .p{
+        height: 1.6vw;
+    }
+    .main {
+        width: 29.21vw;
+        margin-top: 20.17vw;
+        margin-bottom: 20.17vw;
+        border-radius: 0.869vw;
+        border: 1px solid #C4C4C4;
+    }
+
+    .yellowSide {
+        background-color: #FFDC40;
+        height: 2.434vw;
+        border-top-left-radius: 0.869vw;
+        border-top-right-radius: 0.869vw;
+    }
+
+    .todo {
+        width: 17.21vw;
+        height: 2.95vw;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 2.26vw;
+        line-height: 2.6vw;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+        margin: auto;
+        margin-top: 1.13vw;
+    }
+
+    button {
+        border: none;
+    }
+
+    .button1,
+    .button2 {
+        background: none;
+    }
+
+    .button3 {
+        background-color: #833AE0;
+        color: white;
+        width: 13.04vw;
+        height: 3.65vw;
+        border-radius: 4.34vw;
+        margin-left: -3.47vw;
+        z-index: -1;
+        font-size: 1.21vw;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+
+    .btn{
+        outline-color: #909090;
+        width: 1.9vw;
+        height: 1.9vw;
+        border-radius: 50%;
+        margin-right:1vw ;
+        cursor: pointer;
+        margin-bottom: 0.5vw;
+    }
+
+
+    input {
+        width: 13.33333vw;
+        height: 2.1vw;
+        margin-top: 0.869vw;
+        border: none;
+        margin-top: 0.5vw;
+        border-radius: 1.31vw;
+        font-size: 1.5vw;
+        outline: none;
+        padding-left: 1vw;
+
+    }
+
+    .button1 {
+        margin-left: 24.434vw;
+        margin-top: 1.391vw;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:2.4vw;
+        height:1.5vw;
+        cursor: pointer;
+    }
+
+    .button2 {
+        margin-top: 0.875vw;
+        margin-right: 1vw;
+        border-radius: 50%;
+        background-position: center;
+        width: 1.9vw;
+        height: 1.9vw;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        
+    }
+
+    .btnandinp {
+        display: flex;
+        border: 1px solid #C4C4C4;
+        margin-left: 1.95vw;
+        margin-top: 0.869vw;
+        height: 3.47vw;
+        width: 24.869vw;
+        border-radius: 0.869vw;
+        justify-content: space-between;
+    }
+
+    .inputandbutton {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .addbutton {
+        display: flex;
+        margin-bottom: 1.4vw;
+        margin-top: 1.56vw;
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+
+    .addbutton div {
+        width: 3.65vw;
+        height: 3.65vw;
+        border-radius: 4.34vw;
+        background-color: #9953F1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .tasks {
+        font-size: 1.5vw;
+        font-family:  Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        max-height: 16vw;
+        overflow: auto;
+        width: 23.869vw;
+        border: 1px solid #C4C4C4;
+        border-radius: 0.869vw;
+        list-style: none;
+        margin-left: 1.95vw;
+        display: none;
+        margin-bottom: 0.862vw;
+    }
+
+    .tasks::-webkit-scrollbar {
+        width: 0.4vw;
+        height: 0.4vw;
+    }
+
+    .tasks::-webkit-scrollbar-thumb {
+        background: #909090;
+        border-radius: 0.869vw;
+    }
+
+
+    .plus {
+        color: white;
+        font-size: 1.566vw;
+        font-weight: bold;
+        align-self: center;
+    }
+
+}
+
+
